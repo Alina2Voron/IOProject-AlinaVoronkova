@@ -13,6 +13,8 @@ public class Main {
         Token gold = new Token(GOLD_TOKEN_LABEL);
         Token player = new Token(PLAYER_TOKEN_LABEL);
 
+        board.clean();
+        
         board.placeToken(5, 4, gold);
         board.placeToken(2, 3, player);
 
